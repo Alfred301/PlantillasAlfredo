@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Smooch Sans", serif;
+}
+
+body {
+    min-height: 100dvh;
+    background-color: rgb(36, 36, 36);
+
+}
+
+
+
+
+
+
+
+header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 40dvh;
+    padding: 3em;
+
+    background: rgb(24, 23, 23);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.289);
+
+
+}
+
+
+header h1,
+header h2 {
+    margin: 0.5em;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+header h2 {
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+section .page {
+    margin: 2em;
+
+    text-align: center;
+
+    width: 70%;
+    border-radius: 10px;
+    max-height: 80vh;
+    overflow: scroll;
+    scrollbar-width: none;
+
+
+    border: 1px solid rgba(0, 0, 0, 0.262);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+
+
+}
+
+section .page:hover {
+    transform: scale(1.05);
+}
+
+section h2 {
+    padding: 10px 0;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.262);
+    background-color: white;
+
+}
+
+section a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section .page img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+@media screen and (min-width:700px) {
+
+    section .page {
+        width: 40%;
+    }
+
+}
+
+
+@media screen and (min-width:1500px) {
+
+    section .page {
+        width: 29%;
+    }
+
+}
