@@ -183,6 +183,7 @@ section .page img {
     cursor: pointer;
     transition: background-color 0.5s ease, color 0.5s ease;
     user-select: none;
+    border: 1px solid rgb(255, 255, 255);
 
 }
 
